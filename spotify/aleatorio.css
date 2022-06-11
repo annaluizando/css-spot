@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:ital,wght@1,200;1,500&display=swap');
+
+h1{
+  margin: 3rem 0 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+p{
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.2rem 1rem 0.5rem 1rem ;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+span{
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+
+.button {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  background-color: #1ed760;
+  border-radius: 30vh;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.button:hover {
+  color: #1ed760;
+  background-color: white;
+  border-color: white;
+}
+
+iframe{
+  width: 268px;
+  height: 340px;
+  position: center;
+  margin: 3rem 0 1rem 0;
+  display: block;
+  transition: all ease-in-out 0.3s;
+  
+}
+
+iframe:hover {
+  transform: scale(1.02);
+  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: rgb(29,29,29);
+    background: radial-gradient(circle, rgba(29,29,29,1) 0%, rgba(0,0,0,1) 65%);
+
+}
+
+img{
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.peq{
+    margin: 3rem 0 0.5rem 0;
+    font-size: 0.7rem;
+}
+
+ #perfil:hover{ 
+  transform: scale(1.1);
+  transition: all ease-in-out 0.3s;
+}
+
+#github:hover{
+  transform: scale(1.1);
+  transition: all ease-in-out 0.3s;
+}
+
+a{
+  padding: 0;
+  margin: 0;
+}
+
+#perfil img{
+  margin: 0 0.5rem 0 0;
+  padding: 0;
+  width: 32px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;   
+  margin: 0;
+  padding: 0;
+}
